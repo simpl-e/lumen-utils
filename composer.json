@@ -1,0 +1,11 @@
+{
+    "name": "simple/lumen-utils",
+    "type": "library",
+    "description": "Utils for Lumen by 'simple_'",
+    "autoload": {
+        "psr-4": {
+            "Simple\\Lumen\\Utils\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
