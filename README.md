@@ -1,7 +1,7 @@
 
 Classes utils for Lumen
 
-### Composer:
+### composer.json:
 ```
 "repositories": [
     {
