@@ -1,5 +1,5 @@
 
-Classes utils for Luemn
+Classes utils for Lumen
 
 ### Composer:
 ```
