@@ -2,7 +2,7 @@
 
 namespace Simple\Lumen\Utils\App\Console\Commands;
 
-class MigrationsUp extends Illuminate\Console\Command {
+class MigrationsUp extends \Illuminate\Console\Command {
 
     protected $signature = 'migrations:up';
     protected $description = 'Run migrations up method only';
@@ -31,7 +31,7 @@ class MigrationsUp extends Illuminate\Console\Command {
 
             $filename = str_replace('.php', '', basename($file));
 
-            $class = Illuminate\Support\Str::studly(implode('_', array_slice(explode('_', $file), 4)));
+            $class = \Illuminate\Support\Str::studly(implode('_', array_slice(explode('_', $file), 4)));
             $migration = new $class;
 
             $migration->up();
