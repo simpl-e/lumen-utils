@@ -21,6 +21,7 @@ Classes utils for Lumen
     "simpl-e/lumen-utils": "master"
 }
 ```
+composer install
 
 ### Import:
 ```
