@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Simple\Lumen\Utils\App\Http\Middleware;
 
 use Closure;
 use JWTAuth;

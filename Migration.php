@@ -1,6 +1,6 @@
 <?php
 
-namespace Simple;
+namespace Simple\Lumen\Utils;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;

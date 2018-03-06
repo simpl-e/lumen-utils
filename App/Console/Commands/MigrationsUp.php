@@ -1,6 +1,6 @@
 <?php
 
-namespace Simple\App\Console\Commands;
+namespace Simple\Lumen\Utils\App\Console\Commands;
 
 class MigrationsUp extends Illuminate\Console\Command {
 
