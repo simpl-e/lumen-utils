@@ -31,7 +31,7 @@ class MigrationsUp extends \Illuminate\Console\Command {
 
             $filename = str_replace('.php', '', basename($file));
 
-            $class = \Illuminate\Support\Str::studly(implode('_', array_slice(explode('_', $file), 4)));
+            $class = \Illuminate\Support\Str::studly(implode('_', array_slice(explode('_', $filename), 4)));
             $migration = new $class;
 
             $migration->up();
